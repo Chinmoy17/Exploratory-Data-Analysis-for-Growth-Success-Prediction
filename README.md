@@ -86,7 +86,20 @@ The model's performance is evaluated using the following:
 These metrics help us understand the strengths and weaknesses of the model and suggest areas for improvement, such as addressing class imbalance.
 
 ### Confusion Matrix Heatmap:
-![Confusion Matrix](confusion_matrix.png)
+## Confusion Matrix
+
+The confusion matrix is as follows:
+
+|               | Predicted: 0 (Closed) | Predicted: 1 (Acquired) |
+|---------------|-----------------------|-------------------------|
+| **Actual: 0 (Closed)**  | 44                    | 0                       |
+| **Actual: 1 (Acquired)** | 2                     | 0                       |
+
+- **True Negatives (TN)**: 44 (Predicted 0, Actual 0)
+- **False Positives (FP)**: 0 (Predicted 1, Actual 0)
+- **False Negatives (FN)**: 2 (Predicted 0, Actual 1)
+- **True Positives (TP)**: 0 (Predicted 1, Actual 1)
+
 
 ## Conclusion
 
